@@ -1,0 +1,24 @@
+imports:
+    - { resource: config_dev.yml }
+
+parameters:
+    fixtures_dir: "%kernel.root_dir%/../tests/fixtures"
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    profiler:
+        collect: true
+
+web_profiler:
+    toolbar: false
+    intercept_redirects: false
+
+
+doctrine:
+    dbal:
+        driver: pdo_sqlite
+        dbname:   "%database_name%_test"
+
+swiftmailer:
+    disable_delivery: true

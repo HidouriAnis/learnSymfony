@@ -1,0 +1,32 @@
+services:
+    app.wordlist_loader.txt:
+        class: AppBundle\Game\Loader\TextFileLoader
+        lazy: true
+        tags:
+            - {name: app.wordlist.loader, type: txt}
+
+    app.wordlist_loader.xml:
+        class: AppBundle\Game\Loader\XmlFileLoader
+        lazy: true
+        tags:
+            - {name: app.wordlist.loader, type: xml}
+
+    app.wordlist:
+        class: AppBundle\Game\WordList
+        calls:
+            - [loadDictionaries, [['%kernel.root_dir%/Resources/data/words.txt', '%kernel.root_dir%/Resources/data/words.xml' ]]]
+        public: false
+
+    app.game_context:
+        class: AppBundle\Game\GameContext
+        arguments: ['@session']
+
+    app.game_runner:
+        class: AppBundle\Game\GameRunner
+        arguments: ['@app.game_context', '@app.wordlist']
+
+    app.contact_service:
+        class: AppBundle\Service\ContactService
+        arguments: ['adrien.lucas@sensiolabs.com', '@mailer']
+        calls:
+            - [setLogger, ['@logger']]

@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <h1>The weekday of your birthday for the next ten years</h1>
+
+    <ul>
+        {% for year in 1..10  %}
+            <li><strong>In {{ loop.index }} year(s):</strong> {{ now|date_modify("+" ~ year ~ "year")|date("Y F, l d") }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

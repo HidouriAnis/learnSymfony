@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+#birthday:
+#    path: /my-birthday/{month}/{day}
+#    defaults:  { _controller: AppBundle:Default:birthday }

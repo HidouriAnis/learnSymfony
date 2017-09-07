@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="79b023163421746c5b29563b30a11319" resname="fail.title.game_over">
+        <source>fail.title.game_over</source>
+        <target>Tu as perdu !</target>
+      </trans-unit>
+      <trans-unit id="87c175cb78845713c7fdd3208acc6e3b" resname="fail.message.game_over">
+        <source>fail.message.game_over</source>
+        <target><![CDATA[Oops, tu es pendu… Le mot à deviner était <strong>%word%</strong>]]></target>
+      </trans-unit>
+      <trans-unit id="e1c65eb8d9f99b2013290f4e4dc4ed20" resname="game.title.guess_mysterious_word">
+        <source>game.title.guess_mysterious_word</source>
+        <target>Devinez le mot mystérieux</target>
+      </trans-unit>
+      <trans-unit id="95535a679d039686607fe75c1f4e9859" resname="game.attempts">
+        <source>game.attempts</source>
+        <target>Vous n'avez plus de tentatives!|{1} Il ne vous reste plus qu'un tentative|]1, +Inf[Il vous reste %count% tentatives.</target>
+      </trans-unit>
+      <trans-unit id="0f22b7c75cc36da530598fba99808834" resname="game.reset">
+        <source>game.reset</source>
+        <target>Redémarrer la partie</target>
+      </trans-unit>
+      <trans-unit id="118d43efb96c9552e4baa0b56c9d97b2" resname="game.try_a_letter">
+        <source>game.try_a_letter</source>
+        <target>Essayer une lettre</target>
+      </trans-unit>
+      <trans-unit id="997e91424e632e8d33b650a379d15834" resname="game.word">
+        <source>game.word</source>
+        <target>Mot :</target>
+      </trans-unit>
+      <trans-unit id="54a62b238b334f57917d613303ff19b4" resname="game.let_me_guess">
+        <source>game.let_me_guess</source>
+        <target>Laisse-moi deviner…</target>
+      </trans-unit>
+      <trans-unit id="279f4aa8538a4a6817105117f714a589" resname="game.try_word">
+        <source>game.try_word</source>
+        <target>Essayer un mot</target>
+      </trans-unit>
+      <trans-unit id="03c39217686c56f7003797e7435cbca0" resname="testominals">
+        <source>testominals</source>
+        <target>Témoignages</target>
+      </trans-unit>
+      <trans-unit id="57474629b232e2c177a807ca04776cfc" resname="won.title.congratulations">
+        <source>won.title.congratulations</source>
+        <target>Félicitations</target>
+      </trans-unit>
+      <trans-unit id="11899163b93645d3fbbe552504560baf" resname="fail.message.congratulations">
+        <source>fail.message.congratulations</source>
+        <target><![CDATA[Vous avez trouvé le mot à deviner <strong>%word%</strong> et avez remporté cette partie.]]></target>
+      </trans-unit>
+      <trans-unit id="4dafe66350ea4eab888f184a41efb28c" resname="last_players">
+        <source>last_players</source>
+        <target>Derniers joueurs</target>
+      </trans-unit>
+      <trans-unit id="e79ae86e826056cc56daa31b0c8dbd96" resname="last_games">
+        <source>last_games</source>
+        <target>Dernières parties</target>
+      </trans-unit>
+      <trans-unit id="de8416862d565b02c389848f54767a64" resname="menu.game">
+        <source>menu.game</source>
+        <target>Jeu</target>
+      </trans-unit>
+      <trans-unit id="3453fcf149614223f626d0ff94263c04" resname="menu.register">
+        <source>menu.register</source>
+        <target>S'enregistrer</target>
+      </trans-unit>
+      <trans-unit id="d7782189f7f2519f2ddc969f3a4ade94" resname="menu.login">
+        <source>menu.login</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="9fd59920b1e1f67f4620dd4d6ab7c5b3" resname="menu.contact">
+        <source>menu.contact</source>
+        <target>Nous contacter</target>
+      </trans-unit>
+      <trans-unit id="106a6c241b8797f52e1e77317b96a201" resname="home">
+        <source>home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="cb9749e3b7133685b21c02a1b4303303" resname="you_failed">
+        <source>you_failed</source>
+        <target>Tu as perdu</target>
+      </trans-unit>
+      <trans-unit id="1e0136ef5b99f59fe02e5def889a547b" resname="you_won">
+        <source>you_won</source>
+        <target>Tu as gagné</target>
+      </trans-unit>
+      <trans-unit id="c3966a674e9c617d45ee35040979e439" resname="access_account">
+        <source>access_account</source>
+        <target>Accéder à votre compte</target>
+      </trans-unit>
+      <trans-unit id="14c4b06b824ec593239362517f538b29" resname="username">
+        <source>username</source>
+        <target>Nom d'utilisateur :</target>
+      </trans-unit>
+      <trans-unit id="5f4dcc3b5aa765d61d8327deb882cf99" resname="password">
+        <source>password</source>
+        <target>Mot de passe :</target>
+      </trans-unit>
+      <trans-unit id="6c45aa59f883c16afdf4b9230cbe1aa5" resname="button.login">
+        <source>button.login</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="8e2afa34793f4fd198410b9209e85594" resname="button.submit">
+        <source>button.submit</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="26934eb377001f66e37289a5c93fe284" resname="failed">
+        <source>failed</source>
+        <target>Failed</target>
+      </trans-unit>
+      <trans-unit id="7b63d1cafe15e5edab88a8e81de794b5" resname="won">
+        <source>won</source>
+        <target>Won</target>
+      </trans-unit>
+      <trans-unit id="d56b699830e77ba53855679cb1d252da" resname="login">
+        <source>login</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="1a3a54982b697e6a65ae838ee0253bce" resname="contact.sender">
+        <source>contact.sender</source>
+        <target>Qui êtes-vous ?</target>
+      </trans-unit>
+      <trans-unit id="f13273ba00018ad2601abcbf75e033f8" resname="contact.message">
+        <source>contact.message</source>
+        <target>Votre message:</target>
+      </trans-unit>
+      <trans-unit id="937f7f8cf12392227c085d2591da31f1" resname="contact.subject">
+        <source>contact.subject</source>
+        <target>Sujet :</target>
+      </trans-unit>
+      <trans-unit id="129091fa44cfcd7cfe5518659d5694d0" resname="contact.submit">
+        <source>contact.submit</source>
+        <target>Envoyer mon message</target>
+      </trans-unit>
+      <trans-unit id="bda13cc2b6e737f765220f1c651e4645" resname="play_again">
+        <source>play_again</source>
+        <target>Nouvelle partie !</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

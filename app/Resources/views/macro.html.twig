@@ -1,0 +1,6 @@
+{% macro breadcrumb(values) %}
+    {% for key, url in values %}
+        <a href="{{ path(url) }}">{{ key|trans }}</a>{% if not loop.last %} > {% endif %}
+    {% endfor %}
+    <hr /><br />
+{% endmacro %}

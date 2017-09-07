@@ -1,0 +1,26 @@
+{% extends 'layout.html.twig' %}
+
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+{% block title %}
+    {{ parent() }} Contact
+{% endblock %}
+
+{% block content %}
+    <div id="form-contact">
+        {% include('fragments/contact.html.twig') %}
+    </div>
+    <script>
+        $(document).on('change', '#{{ form.zone.vars.id }}', function(){
+            $.post("{{ path('contact') }}", $('form[name="{{ form.vars.id }}"]').serializeArray(), function(data){
+                content = '';
+                for(i in data) {
+                    content += '<option>'+data[i]+'</option>'
+                }
+                $('#{{ form.country.vars.id }}').html(content);
+            })
+        });
+
+
+    </script>
+{% endblock %}

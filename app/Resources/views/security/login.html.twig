@@ -1,0 +1,19 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    {{ parent() }} {{ 'login'|trans }}
+{% endblock %}
+
+{% block content %}
+    <h2>{{ 'access_account'|trans }}</h2>
+
+    <form action="/login_check" method="post">
+        <label for="username">{{ 'username'|trans }}</label>
+        <input type="text" id="username" name="my_login" value="" />
+
+        <label for="password">{{ 'password'|trans }}</label>
+        <input type="password" id="password" name="my_secret" />
+
+        <button type="submit">{{ 'button.login'|trans }}</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,7 @@
+<h1>{{ 'testominals'|trans }}</h1>
+
+<ul>
+{% for name, testimonial in testimonials %}
+    <li><strong>{{ name }}</strong>: "{{ testimonial }}"</li>
+{% endfor %}
+</ul>

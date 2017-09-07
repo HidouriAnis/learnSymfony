@@ -1,0 +1,18 @@
+{% extends 'layout.html.twig' %}
+
+{% import 'macro.html.twig' as utils %}
+
+{% block title %}
+    {{ parent() }} {{ 'failed'|trans }}
+{% endblock %}
+
+{% block content %}
+    {{ utils.breadcrumb({'home': 'game_home', 'you_failed': app.request.attributes.get('_route')}) }}
+
+    <h2>{{ 'fail.title.game_over'|trans }}</h2>
+    <p>
+        {{ 'fail.message.game_over'|trans({'%word%': 'xilophon'})|raw }}.
+
+        <a href="{{ path('game_home') }}" class="btn-bg btn-default">{{ 'play_again'|trans }}</a>
+    </p>
+{% endblock %}
